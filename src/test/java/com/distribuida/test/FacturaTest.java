@@ -39,7 +39,7 @@ public class FacturaTest {
                 () -> assertEquals(1,factura.getIdFactura()),
                 () -> assertEquals(150.00,factura.getTotalNeto()),
                 () -> assertEquals(165.00,factura.getIva()),
-                () -> assertEquals(150.00,factura.getTotal()),
+                () -> assertEquals(150.00, factura.getTotal()),
                 () -> assertEquals("FAC-0001",factura.getNumFactura())
 
 
