@@ -1,15 +1,20 @@
 package com.distribuida.principal;
 
-import com.distribuida.entities.Cliente;
-import org.distribuida.entities.cliente;
+import com.distribuida.entities.cliente;
+
+import java.util.Date;
 
 public class ClientePrincipal {
 
-    public static void main(String[] args){
+  public static void main(String[] args){
 
-        Cliente cliente = new Cliente(1,"1753352515","Ara",
-                "Chupin","Tumbaco","911","pepe@gmail.com");
-        System.out.println(cliente.toString());
-    }
+      cliente cliente = new cliente(1,"Marco Guacapiña",
+              "test@gmail.com","Desarrollo de Software",new Date());
+
+      System.out.println(cliente.toString());
+
+
+
+  }
 
 }
